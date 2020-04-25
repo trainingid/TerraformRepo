@@ -20,7 +20,7 @@ pipeline {
                 steps
                     {
                      
-                       bat "terraform init " + env.workspace + "\\TerraformProjects"
+                       bat "terraform init \"" + env.workspace + "\\TerraformProjects\""
                     }
               }
               
