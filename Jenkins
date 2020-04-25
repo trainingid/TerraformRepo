@@ -20,7 +20,7 @@ pipeline {
                 steps
                     {
                      
-                       bat "terraform init \\TerraformProjects -plugin-dir=""E:\\Workspace\\Git Repository\\TerraformRepo\\.terraform\\plugins\\windows_amd64"""
+                       bat "terraform init \\TerraformProjects -plugin-dir=""E:\\Workspace\\Git Repository\\TerraformRepo\\\.terraform\\plugins\\windows_amd64"""
                     }
               }
               
